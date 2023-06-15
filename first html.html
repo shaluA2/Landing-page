@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <section>
+        <div class="circle" width="800" heigth="400"></div>
+        <header>
+            <a href="#"><img src="download.png" class="logo"></a>
+            <ul>
+                <li><a href="">home</a></li> 
+                <li><a href="">menu</a></li>
+                <li><a href="">what's new</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </header>
+        
+        <div class="content">
+            <div class="textBox">
+                <h2>it's not just coffee <br><span>Starbucks</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, modi aspernatur aperiam nam repellat porro natus tenetur eveniet nulla sequi fugit consequuntur tempora non quae, dolorem maiores. Qui, eaque delectus.</p>
+                <a href="">Learn More</a>
+            </div>
+            <div class="imgBox">
+               <img src="images.jpeg"  class="Starbucks" width="300px">
+            </div>
+        </div>
+        <!-- <ul class="thumb">
+            <li><a href="#"><img src="shi.webp" width="80" height="80" onclick="imgslinder('shi.webp');changeCircleColor('#017143')" ></a></li> 
+            <li><a href="#"><img src="dragon.jpg"width="80" height="80" onclick="imgslinder('dragon.jpg');changeCircleColor ('#eb7495')"  ></a></li>
+            <li><a href="#"><img src="istockphoto-532973068-170667a.jpg"width="80" height="80" onclick="imgslinder('istockphoto-532973068-170667a.jpg');changeCircleColor('#d757b1')" ></a></li> -->
+        <!-- </ul> -->
+        <ul class=".sci">
+            <li><a href="#"><img src="download (1).png" width="80" height="80"></a></li> 
+            <li><a href="#"><img src="download (2).png"width="80" height="80"></a></li>
+            <li><a href="#"><img src="images.png"width="80" height="80"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgslinder(anything){
+        document.querySelector('.starbucks').src-anything;
+    }
+    function changeCircleColor(color){
+        const circle = Document.querySelector('.cicle');
+        circle.style.background = color;
+    }
+    </script>
+ </body>
+ </html>

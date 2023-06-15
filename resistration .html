@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+    <h1 class="main_heading">Payment form</h1>
+    <hr>
+    <h3>User Information</h3>
+    <p>Name: <input type="name" placeholder="name"> </p>
+  <p>Password:  <input type="password" placeholder="password"></p>
+  <fieldset>
+    
+  <legend><h2>gender</h2></legend>
+   <input type="radio" name="gender" id="male">male
+   <input type="radio" name="gender" id="female">female
+   
+</fieldset>
+<hr>
+<h3>contact</h3>
+<input type="number" placeholder="contact number">
+
+<h3>gmail</h3>
+<input type="gmail" placeholder="gmail">
+
+<p>
+    <hr>
+    <h3>Address</h3> 
+    <textarea placeholder="enter your addresss" id="" cols="30" rows="10"></textarea>
+</p>
+<hr>
+<h2>Identification</h2>
+<input type="checkbox" placeholder="adhar card" value="id">adhar card
+<br>
+<input type="checkbox" placeholder="pancard" value="id">pancard
+<br>
+<input type="checkbox" placeholder="licence" value="id">licence
+<br>
+<input type="checkbox" placeholder="id card" value="id">id card
+<br>
+<hr>
+<h2>select cities</h2>
+<select>
+    <option value="city name"> Delhi</option>
+    <option value="city name"> Nagpur</option>
+    <option value="city name"> Mumbai</option>
+    <option value="city name"> Mumbai</option>
+    <option value="city name"> Bhopal</option>
+    <option value="city name"> Allahabad</option>
+    <option value="city name"> Varansi</option>
+    <option value="city name"> Gazipur</option>
+</select>
+<br>
+
+<hr>
+<h2>Payment Information</h2>
+<p>Card type:
+<select name="card_type" id="card_type" required>
+    <option value="">--select card type--</option>
+    <option value="visa">visa</option>
+    <option value="mastercard">mastercard</option>
+    <option value="rupey">rupey</option>
+    
+</select>
+</p>
+<h3>Cvv</h3>
+<input type="password" placeholder="cvv">
+
+<br><h3>Account number</h3>
+<input type="number" placeholder="account number">
+
+<br><h3>Ifsc code</h3>
+<input type="number" placeholder="ifsc code">
+
+<p>
+   <h3>expiration date</h3> <input type="date" placeholder="experition date">
+</p>
+<hr>
+<h3>submit</h3>
+<input type="submit">
+<hr>
+<h3>reset</h3>
+<input type="reset">
+<br>
+  </form>
+</div>
+</body>
+</html>
